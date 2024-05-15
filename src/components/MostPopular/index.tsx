@@ -42,9 +42,9 @@ const MostPopular = () => {
                                 <Box>
                                     <text style={{ color: "gray", fontSize: 11, fontWeight: "bold" }}>Chapter 115</text>
                                 </Box>
-                                <Box sx={{ marginTop: 1, }}>
+                                <Box display="flex" flexDirection="row" sx={{ marginTop: 1, }}>
                                     <Rating name="read-only" value={5} readOnly size="small" />
-                                    <text>9.0</text>
+                                    <text style={{ color: "#fff", fontSize: 12, marginLeft: 4, fontWeight: "bold" }}>9.0</text>
                                 </Box>
                             </Box>
                         </Grid>
